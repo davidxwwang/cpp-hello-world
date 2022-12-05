@@ -139,7 +139,7 @@ components:
       app.kubernetes.io/component: remote-runtime-injector
       app.kubernetes.io/part-of: che-theia.eclipse.org
     container:
-      image: 'quay.io/azatsary/che-theia-endpoint-runtime-binary:filter'
+      image: 'quay.io/eclipse/che-theia-endpoint-runtime-binary:next'
       memoryLimit: 128Mi
       memoryRequest: 32Mi
       cpuLimit: 500m
